@@ -28,6 +28,36 @@ export default function HeroSection() {
           </div>
           <button className="btn-large mt-8">Start now</button>
         </div>
+        <div className="flex flex-col md:flex-row justify-center items-center gap-4 lg:hidden">
+          <a
+            href="https://discord.gg/8mqFyuky"
+            className="social-media-link border border-slate-800 w-24 flex justify-center items-center py-2 rounded-lg"
+            target="_blank"
+          >
+            Discord
+          </a>
+          <a
+            href="https://t.me/+l6MZkw8VwiQ2NmZk"
+            className="social-media-link border border-slate-800 w-24 flex justify-center items-center py-2 rounded-lg"
+            target="_blank"
+          >
+            Telegram
+          </a>
+          <a
+            href="https://x.com/cipherzerop"
+            className="social-media-link border border-slate-800 w-24 flex justify-center items-center py-2 rounded-lg"
+            target="_blank"
+          >
+            Twitter
+          </a>
+          <a
+            href="https://www.linkedin.com/company/cipher-zero-protocol/about/"
+            className="social-media-link border border-slate-800 w-24 flex justify-center items-center py-2 rounded-lg"
+            target="_blank"
+          >
+            Linkedin
+          </a>
+        </div>
       </div>
       <img
         alt="hero-img"

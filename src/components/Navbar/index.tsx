@@ -18,6 +18,13 @@ export default function Navbar() {
             Discord
           </a>
           <a
+            href="https://t.me/+l6MZkw8VwiQ2NmZk"
+            className="social-media-link"
+            target="_blank"
+          >
+            Telegram
+          </a>
+          <a
             href="https://x.com/cipherzerop"
             className="social-media-link"
             target="_blank"
@@ -25,11 +32,11 @@ export default function Navbar() {
             Twitter
           </a>
           <a
-            href="https://t.me/+l6MZkw8VwiQ2NmZk"
+            href="https://www.linkedin.com/company/cipher-zero-protocol/about/"
             className="social-media-link"
             target="_blank"
           >
-            Telegram
+            Linkedin
           </a>
         </div>
         <button className="btn-small" onClick={redirectToWaitlist}>
