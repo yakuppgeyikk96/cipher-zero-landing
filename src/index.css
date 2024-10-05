@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  body {
+    @apply text-primary-foreground;
+    @apply bg-background;
+  }
+
+  main {
+    height: calc(100vh - 128px);
+  }
+
+  .btn-small {
+    @apply w-[180px];
+    @apply h-[40px];
+    @apply rounded-xl;
+    @apply text-primary-foreground;
+    @apply bg-gradient-to-t from-primary-20 from-0% via-primary via-50% to-primary-20 to-100%;
+  }
+
+  .btn-large {
+    @apply w-[240px];
+    @apply h-[48px];
+    @apply rounded-xl;
+    @apply text-primary-foreground;
+    @apply bg-gradient-to-t from-primary-20 from-0% via-primary via-50% to-primary-20 to-100%;
+  }
+}

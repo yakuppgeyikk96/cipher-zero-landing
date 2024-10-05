@@ -1,0 +1,16 @@
+#navbar-actions {
+  @apply flex;
+  @apply items-center;
+  @apply space-x-16;
+}
+
+.social-media-links {
+  @apply flex;
+  @apply items-center;
+  @apply justify-center;
+  @apply space-x-6;
+}
+
+.social-media-link {
+  @apply text-link;
+}
