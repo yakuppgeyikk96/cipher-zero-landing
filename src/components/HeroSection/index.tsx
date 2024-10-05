@@ -1,6 +1,6 @@
 export default function HeroSection() {
   return (
-    <section className="flex items-center justify-between h-full">
+    <section className="flex items-center justify-between">
       <div className="flex flex-col gap-14 justify-center items-center lg:items-start">
         <div className="flex gap-6">
           <div className="border border-primary p-4 rounded-2xl cursor-pointer">
